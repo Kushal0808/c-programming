@@ -1,0 +1,25 @@
+task 1 c programming
+
+
+#include<stdio.h>
+
+void main()
+
+{
+
+int a,b,c;
+
+printf("enter the name:");
+
+scanf("%d",&a);
+
+printf("enter age:");
+
+scanf("%d",&b);
+
+printf("enter phone number:");
+
+scanf("%d",&c);
+
+getch();
+}
