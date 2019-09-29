@@ -1,0 +1,33 @@
+WRITE A C PROGRAM TO DISPLAY THE FOLLOWING OPTIONS : 1. CELCIUS TO FAHRENHEIT, 2. FAHRENHEIT TO CELCIUS, 3. EXIT. PERFORM THE RELEVANT OPERATION USING SWITCH CASE.
+
+#include<stdio.h>
+void main()
+{
+float a,b,celsius,fahrenheit;
+int g;
+printf("1.fahrenheit to celsius");
+printf("2.celsius to fahrenheit");
+printf("3.exit");
+printf("enter your choice\n");
+scanf("%d",&g);
+switch(g)
+{
+case 1:
+printf("enter value of fahrenheit temperature:");
+scanf("%f",&a);
+celsius=5*(a-32)/9;
+printf("celsius temperature is:%f",celsius);
+break;
+case 2:
+printf("enter value of celsius temperature:");
+scanf("%f",&b);
+fahrenheit=((9*b)/5)+32;
+printf("fahrenheit temperature is:%f",fahrenheit);
+break;
+case 3:
+break;
+default:
+printf("\n\nwrong choice....try again\n");
+}
+getch();
+}
